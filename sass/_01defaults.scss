@@ -1,6 +1,8 @@
 
-
 // Defaults
+
+/* Box Sizing
+--------------------------------------------- */
 
   * {
     @include box-sizing(border-box);
@@ -21,7 +23,8 @@
     vertical-align: baseline;
   }
 
-/* Clearfix */
+/* Clearfix
+--------------------------------------------- */
 .site-inner:after,
 .home-middle:after,
 .site-header:after,

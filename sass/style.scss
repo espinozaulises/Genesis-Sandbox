@@ -8,13 +8,13 @@
 /*!
     Theme Name: Genesis Sandbox
     Description: This is a start kit for to devevelop your own themes for the Genesis Framework
-    Author: Jonathan Perez and Travis Smith (wpsmith.net)
+    Author: Update by Ulises Vázquez Espinoza | Create by -> Jonathan Perez and Travis Smith  (wpsmith.net)
     Author URI: http://www.surefirewebservices.com/
  
-    Version: 2.0
+    Version: 2.3
  
     Template: genesis
-    Template Version: 2.0
+    Template Version: 2.3
  
     License: GPL-2.0+
     License URI: http://www.opensource.org/licenses/gpl-license.php 
@@ -22,8 +22,11 @@
 
 
 /* Table of Contents
-
-    01 Import Fonts
+	00 Import Fonts
+	01 HTML5 reset
+		Baseline Normalize
+		Box Sizing
+		Clearfix
     02 Base Styles 
         Defaults
         Wraps
@@ -55,19 +58,22 @@
         Gravity Forms
 */
 
-
 /*
-01 Import Fonts
+00 Import Fonts
 ---------------------------------------------------------------------------------------------------- */
 @include web-font((Arimo, Varela), (), (), (), ());
 
 /*
+01 HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+@import "normalize";
+@import "01defaults";
+
+/*
 02 Base Styles
 ---------------------------------------------------------------------------------------------------- */
-@import "01defaults";
 @import "02layout-grid";
 @import "03headings";
-
 
 /*********************************************************************************************
 
